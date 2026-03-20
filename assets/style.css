@@ -492,6 +492,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     overflow: hidden;
     transition: all var(--transition);
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-card:hover {
@@ -552,7 +554,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     transform: translateY(0);
 }
 
-.card-body { padding: 18px; }
+.card-body {
+    padding: 18px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card-body .btn-cta { margin-top: auto; }
 
 .card-brand {
     display: block;
