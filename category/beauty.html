@@ -1,0 +1,1997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty — My Beauty products</title>
+    <meta name="description" content="Browse the best beauty with expert reviews and unbeatable deals at My Beauty products.">
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../assets/style.css">
+        <link rel="stylesheet" href="../assets/custom.css">
+    
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <span>✨ Spring Glow-Up — Free Shipping on Orders Over $50</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="../index.html" class="logo">
+                
+                <span class="logo-text">My Beauty products</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="../index.html" class="nav-link ">Home</a>
+                
+                <a href="../category/beauty.html" class="nav-link active">Beauty</a>
+                
+                <a href="../about.html" class="nav-link ">About</a>
+            </nav>
+            <div class="header-actions">
+                <button class="search-toggle" aria-label="Search" id="searchToggle">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </button>
+                <button class="mobile-menu-toggle" aria-label="Menu" id="menuToggle">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Search overlay -->
+        <div class="search-overlay" id="searchOverlay">
+            <div class="container">
+                <input type="text" class="search-input" placeholder="Search products..." id="searchInput" autocomplete="off">
+                <button class="search-close" id="searchClose">&times;</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="../index.html" class="mobile-nav-link">Home</a>
+        
+        <a href="../category/beauty.html" class="mobile-nav-link">Beauty</a>
+        
+        <a href="../about.html" class="mobile-nav-link">About</a>
+    </div>
+
+    <main>
+        
+<!-- Breadcrumb -->
+<nav class="breadcrumb">
+    <div class="container">
+        <a href="../index.html">Home</a>
+        <span class="sep">/</span>
+        <span>Beauty</span>
+    </div>
+</nav>
+
+<section class="section category-page">
+    <div class="container">
+        <div class="category-header">
+            <h1 class="page-title">Beauty</h1>
+            <p class="page-subtitle">34 products found</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="category-filters">
+            <div class="filter-group">
+                <label>Price Range:</label>
+                <select id="priceFilter" onchange="filterProducts()">
+                    <option value="all">All Prices</option>
+                    <option value="0-50">Under $50</option>
+                    <option value="50-100">$50 — $100</option>
+                    <option value="100-200">$100 — $200</option>
+                    <option value="200-500">$200 — $500</option>
+                    <option value="500-9999">$500+</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>On Sale:</label>
+                <select id="discountFilter" onchange="filterProducts()">
+                    <option value="all">All</option>
+                    <option value="yes">On Sale Only</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Sort:</label>
+                <select id="sortFilter" onchange="sortProducts()">
+                    <option value="default">Featured</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating">Highest Rated</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-grid layout-grid" id="categoryGrid">
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="599.99" data-rating="4.5" data-views="123000">
+    <a href="../products/dyson-airwrap-complete-long.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/dyson-airwrap-complete-long.webp" alt="Dyson Airwrap Complete Long" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Dyson</span>
+        
+        <h3 class="card-title">
+            <a href="../products/dyson-airwrap-complete-long.html">Dyson Airwrap Complete Long</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(15600)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">9</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$599.99</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">21 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">123000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Dyson%20Airwrap%20Complete%20Long" class="btn btn-cta" data-track="cta" data-product-id="121" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="429.99" data-rating="4.6" data-views="156000">
+    <a href="../products/dyson-supersonic-hair-dryer.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/dyson-supersonic-hair-dryer.webp" alt="Dyson Supersonic Hair Dryer" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Dyson</span>
+        
+        <h3 class="card-title">
+            <a href="../products/dyson-supersonic-hair-dryer.html">Dyson Supersonic Hair Dryer</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(23400)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">15</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$429.99</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">151 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">156000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Dyson%20Supersonic%20Hair%20Dryer" class="btn btn-cta" data-track="cta" data-product-id="122" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="30.0" data-rating="4.4" data-views="234000">
+    <a href="../products/olaplex-no-3-hair-perfector.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/olaplex-no-3-hair-perfector.webp" alt="Olaplex No. 3 Hair Perfector" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Olaplex</span>
+        
+        <h3 class="card-title">
+            <a href="../products/olaplex-no-3-hair-perfector.html">Olaplex No. 3 Hair Perfector</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.4 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(67800)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$30.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">146 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">234000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Olaplex%20No.%203%20Hair%20Perfector" class="btn btn-cta" data-track="cta" data-product-id="123" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="18.99" data-rating="4.7" data-views="345000">
+    <a href="../products/cerave-moisturizing-cream.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/cerave-moisturizing-cream.webp" alt="CeraVe Moisturizing Cream" loading="lazy" width="400" height="400">
+            
+            <span class="card-badge">-10%</span>
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">CeraVe</span>
+        
+        <h3 class="card-title">
+            <a href="../products/cerave-moisturizing-cream.html">CeraVe Moisturizing Cream</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.7 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(89000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">15</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$17.09</span>
+            <span class="price-original">$18.99</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">66 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">345000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=CeraVe%20Moisturizing%20Cream" class="btn btn-cta" data-track="cta" data-product-id="124" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="6.5" data-rating="4.5" data-views="456000">
+    <a href="../products/the-ordinary-niacinamide-10-zinc-1.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/the-ordinary-niacinamide-10-zinc-1.webp" alt="The Ordinary Niacinamide 10% + Zinc 1%" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">The Ordinary</span>
+        
+        <h3 class="card-title">
+            <a href="../products/the-ordinary-niacinamide-10-zinc-1.html">The Ordinary Niacinamide 10% + Zinc 1%</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(112000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">9</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$6.50</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">161 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">456000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=The%20Ordinary%20Niacinamide%2010%25%20%2B%20Zinc%201%25" class="btn btn-cta" data-track="cta" data-product-id="125" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="68.0" data-rating="4.5" data-views="112000">
+    <a href="../products/drunk-elephant-protini-polypeptide-cream.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/drunk-elephant-protini-polypeptide-cream.webp" alt="Drunk Elephant Protini Polypeptide Cream" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Drunk Elephant</span>
+        
+        <h3 class="card-title">
+            <a href="../products/drunk-elephant-protini-polypeptide-cream.html">Drunk Elephant Protini Polypeptide Cream</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(23400)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">7</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$68.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">43 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">112000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Drunk%20Elephant%20Protini%20Polypeptide%20Cream" class="btn btn-cta" data-track="cta" data-product-id="126" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="69.0" data-rating="4.6" data-views="89000">
+    <a href="../products/tatcha-the-dewy-skin-cream.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/tatcha-the-dewy-skin-cream.webp" alt="Tatcha The Dewy Skin Cream" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Tatcha</span>
+        
+        <h3 class="card-title">
+            <a href="../products/tatcha-the-dewy-skin-cream.html">Tatcha The Dewy Skin Cream</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(15600)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">11</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$69.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">25 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">89000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Tatcha%20The%20Dewy%20Skin%20Cream" class="btn btn-cta" data-track="cta" data-product-id="127" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="38.0" data-rating="4.7" data-views="234000">
+    <a href="../products/supergoop-unseen-sunscreen-spf-40.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/supergoop-unseen-sunscreen-spf-40.webp" alt="Supergoop! Unseen Sunscreen SPF 40" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Supergoop!</span>
+        
+        <h3 class="card-title">
+            <a href="../products/supergoop-unseen-sunscreen-spf-40.html">Supergoop! Unseen Sunscreen SPF 40</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.7 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(45000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$38.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">104 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">234000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Supergoop%21%20Unseen%20Sunscreen%20SPF%2040" class="btn btn-cta" data-track="cta" data-product-id="128" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="34.0" data-rating="4.6" data-views="234000">
+    <a href="../products/paulas-choice-2-bha-liquid-exfoliant.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/paulas-choice-2-bha-liquid-exfoliant.webp" alt="Paula's Choice 2% BHA Liquid Exfoliant" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Paula's Choice</span>
+        
+        <h3 class="card-title">
+            <a href="../products/paulas-choice-2-bha-liquid-exfoliant.html">Paula's Choice 2% BHA Liquid Exfoliant</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(56000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$34.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">28 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">234000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Paula%27s%20Choice%202%25%20BHA%20Liquid%20Exfoliant" class="btn btn-cta" data-track="cta" data-product-id="129" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="34.0" data-rating="4.7" data-views="178000">
+    <a href="../products/charlotte-tilbury-pillow-talk-lipstick.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/charlotte-tilbury-pillow-talk-lipstick.webp" alt="Charlotte Tilbury Pillow Talk Lipstick" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Charlotte Tilbury</span>
+        
+        <h3 class="card-title">
+            <a href="../products/charlotte-tilbury-pillow-talk-lipstick.html">Charlotte Tilbury Pillow Talk Lipstick</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.7 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(34500)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">19</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$34.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">250 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">178000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Charlotte%20Tilbury%20Pillow%20Talk%20Lipstick" class="btn btn-cta" data-track="cta" data-product-id="130" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="10.99" data-rating="4.4" data-views="890000">
+    <a href="../products/maybelline-lash-sensational-sky-high-mascara.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/maybelline-lash-sensational-sky-high-mascara.webp" alt="Maybelline Lash Sensational Sky High Mascara" loading="lazy" width="400" height="400">
+            
+            <span class="card-badge">-15%</span>
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Maybelline</span>
+        
+        <h3 class="card-title">
+            <a href="../products/maybelline-lash-sensational-sky-high-mascara.html">Maybelline Lash Sensational Sky High Mascara</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.4 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(234000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">11</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$9.34</span>
+            <span class="price-original">$10.99</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">77 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">890000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Maybelline%20Lash%20Sensational%20Sky%20High%20Mascara" class="btn btn-cta" data-track="cta" data-product-id="131" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="23.0" data-rating="4.7" data-views="456000">
+    <a href="../products/rare-beauty-soft-pinch-liquid-blush.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/rare-beauty-soft-pinch-liquid-blush.webp" alt="Rare Beauty Soft Pinch Liquid Blush" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Rare Beauty</span>
+        
+        <h3 class="card-title">
+            <a href="../products/rare-beauty-soft-pinch-liquid-blush.html">Rare Beauty Soft Pinch Liquid Blush</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.7 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(89000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">9</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$23.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">31 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">456000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Rare%20Beauty%20Soft%20Pinch%20Liquid%20Blush" class="btn btn-cta" data-track="cta" data-product-id="132" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="18.0" data-rating="4.5" data-views="345000">
+    <a href="../products/glossier-boy-brow.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/glossier-boy-brow.webp" alt="Glossier Boy Brow" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Glossier</span>
+        
+        <h3 class="card-title">
+            <a href="../products/glossier-boy-brow.html">Glossier Boy Brow</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(67000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">15</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$18.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">112 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">345000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Glossier%20Boy%20Brow" class="btn btn-cta" data-track="cta" data-product-id="133" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="48.0" data-rating="4.6" data-views="345000">
+    <a href="../products/moroccanoil-treatment-original.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/moroccanoil-treatment-original.webp" alt="Moroccanoil Treatment Original" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Moroccanoil</span>
+        
+        <h3 class="card-title">
+            <a href="../products/moroccanoil-treatment-original.html">Moroccanoil Treatment Original</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(78000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">15</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$48.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">104 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">345000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Moroccanoil%20Treatment%20Original" class="btn btn-cta" data-track="cta" data-product-id="134" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="32.0" data-rating="4.6" data-views="234000">
+    <a href="../products/nars-radiant-creamy-concealer.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/nars-radiant-creamy-concealer.webp" alt="NARS Radiant Creamy Concealer" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">NARS</span>
+        
+        <h3 class="card-title">
+            <a href="../products/nars-radiant-creamy-concealer.html">NARS Radiant Creamy Concealer</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(45000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$32.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">177 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">234000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=NARS%20Radiant%20Creamy%20Concealer" class="btn btn-cta" data-track="cta" data-product-id="135" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="48.0" data-rating="4.5" data-views="234000">
+    <a href="../products/sol-de-janeiro-brazilian-bum-bum-cream.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/sol-de-janeiro-brazilian-bum-bum-cream.webp" alt="Sol de Janeiro Brazilian Bum Bum Cream" loading="lazy" width="400" height="400">
+            
+            <span class="card-badge">-10%</span>
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Sol de Janeiro</span>
+        
+        <h3 class="card-title">
+            <a href="../products/sol-de-janeiro-brazilian-bum-bum-cream.html">Sol de Janeiro Brazilian Bum Bum Cream</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(56000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$43.20</span>
+            <span class="price-original">$48.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">110 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">234000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Sol%20de%20Janeiro%20Brazilian%20Bum%20Bum%20Cream" class="btn btn-cta" data-track="cta" data-product-id="136" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="75.0" data-rating="4.6" data-views="156000">
+    <a href="../products/estée-lauder-advanced-night-repair-serum.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/estée-lauder-advanced-night-repair-serum.webp" alt="Estée Lauder Advanced Night Repair Serum" loading="lazy" width="400" height="400">
+            
+            <span class="card-badge">-10%</span>
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Estée Lauder</span>
+        
+        <h3 class="card-title">
+            <a href="../products/estée-lauder-advanced-night-repair-serum.html">Estée Lauder Advanced Night Repair Serum</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(34500)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">15</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$67.50</span>
+            <span class="price-original">$75.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">157 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">156000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Est%C3%A9e%20Lauder%20Advanced%20Night%20Repair%20Serum" class="btn btn-cta" data-track="cta" data-product-id="137" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="40.0" data-rating="4.5" data-views="345000">
+    <a href="../products/fenty-beauty-pro-filtr-foundation.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/fenty-beauty-pro-filtr-foundation.webp" alt="Fenty Beauty Pro Filt'r Foundation" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Fenty Beauty</span>
+        
+        <h3 class="card-title">
+            <a href="../products/fenty-beauty-pro-filtr-foundation.html">Fenty Beauty Pro Filt'r Foundation</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(67000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">15</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$40.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">156 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">345000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Fenty%20Beauty%20Pro%20Filt%27r%20Foundation" class="btn btn-cta" data-track="cta" data-product-id="138" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="16.99" data-rating="4.7" data-views="456000">
+    <a href="../products/la-roche-posay-cicaplast-balm-b5.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/la-roche-posay-cicaplast-balm-b5.webp" alt="La Roche-Posay Cicaplast Balm B5+" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">La Roche-Posay</span>
+        
+        <h3 class="card-title">
+            <a href="../products/la-roche-posay-cicaplast-balm-b5.html">La Roche-Posay Cicaplast Balm B5+</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.7 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(89000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">9</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$16.99</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">52 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">456000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=La%20Roche-Posay%20Cicaplast%20Balm%20B5%2B" class="btn btn-cta" data-track="cta" data-product-id="139" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="55.0" data-rating="4.5" data-views="45000">
+    <a href="../products/kerastase-nutritive-8h-night-serum.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/kerastase-nutritive-8h-night-serum.webp" alt="Kerastase Nutritive 8H Night Serum" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Kérastase</span>
+        
+        <h3 class="card-title">
+            <a href="../products/kerastase-nutritive-8h-night-serum.html">Kerastase Nutritive 8H Night Serum</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(8900)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$55.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">32 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">45000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Kerastase%20Nutritive%208H%20Night%20Serum" class="btn btn-cta" data-track="cta" data-product-id="140" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="47.0" data-rating="4.5" data-views="178000">
+    <a href="../products/it-cosmetics-cc-cream-spf-50.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/it-cosmetics-cc-cream-spf-50.webp" alt="IT Cosmetics CC+ Cream SPF 50" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">IT Cosmetics</span>
+        
+        <h3 class="card-title">
+            <a href="../products/it-cosmetics-cc-cream-spf-50.html">IT Cosmetics CC+ Cream SPF 50</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(34500)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">19</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$47.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">248 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">178000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=IT%20Cosmetics%20CC%2B%20Cream%20SPF%2050" class="btn btn-cta" data-track="cta" data-product-id="141" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="23.0" data-rating="4.6" data-views="567000">
+    <a href="../products/mac-ruby-woo-lipstick.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/mac-ruby-woo-lipstick.webp" alt="MAC Ruby Woo Lipstick" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">MAC</span>
+        
+        <h3 class="card-title">
+            <a href="../products/mac-ruby-woo-lipstick.html">MAC Ruby Woo Lipstick</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(123000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$23.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">45 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">567000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=MAC%20Ruby%20Woo%20Lipstick" class="btn btn-cta" data-track="cta" data-product-id="142" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="19.97" data-rating="4.5" data-views="456000">
+    <a href="../products/neutrogena-hydro-boost-water-gel.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/neutrogena-hydro-boost-water-gel.webp" alt="Neutrogena Hydro Boost Water Gel" loading="lazy" width="400" height="400">
+            
+            <span class="card-badge">-20%</span>
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Neutrogena</span>
+        
+        <h3 class="card-title">
+            <a href="../products/neutrogena-hydro-boost-water-gel.html">Neutrogena Hydro Boost Water Gel</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(89000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">9</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$15.98</span>
+            <span class="price-original">$19.97</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">22 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">456000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Neutrogena%20Hydro%20Boost%20Water%20Gel" class="btn btn-cta" data-track="cta" data-product-id="143" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="279.0" data-rating="4.7" data-views="112000">
+    <a href="../products/ghd-platinum-styler.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/ghd-platinum-styler.webp" alt="GHD Platinum+ Styler" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">ghd</span>
+        
+        <h3 class="card-title">
+            <a href="../products/ghd-platinum-styler.html">GHD Platinum+ Styler</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.7 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(23400)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">7</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$279.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">143 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">112000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=GHD%20Platinum%2B%20Styler" class="btn btn-cta" data-track="cta" data-product-id="144" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="39.0" data-rating="4.5" data-views="156000">
+    <a href="../products/youth-to-the-people-superfood-cleanser.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/youth-to-the-people-superfood-cleanser.webp" alt="Youth To The People Superfood Cleanser" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Youth To The People</span>
+        
+        <h3 class="card-title">
+            <a href="../products/youth-to-the-people-superfood-cleanser.html">Youth To The People Superfood Cleanser</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(34500)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">15</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$39.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">73 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">156000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Youth%20To%20The%20People%20Superfood%20Cleanser" class="btn btn-cta" data-track="cta" data-product-id="145" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="26.0" data-rating="4.6" data-views="234000">
+    <a href="../products/benefit-precisely-my-brow-pencil.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/benefit-precisely-my-brow-pencil.webp" alt="Benefit Precisely My Brow Pencil" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Benefit</span>
+        
+        <h3 class="card-title">
+            <a href="../products/benefit-precisely-my-brow-pencil.html">Benefit Precisely My Brow Pencil</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(56000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$26.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">24 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">234000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Benefit%20Precisely%20My%20Brow%20Pencil" class="btn btn-cta" data-track="cta" data-product-id="146" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="40.0" data-rating="4.6" data-views="112000">
+    <a href="../products/dior-backstage-face-body-foundation.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/dior-backstage-face-body-foundation.webp" alt="Dior Backstage Face & Body Foundation" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Dior</span>
+        
+        <h3 class="card-title">
+            <a href="../products/dior-backstage-face-body-foundation.html">Dior Backstage Face & Body Foundation</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(23400)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">7</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$40.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">173 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">112000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Dior%20Backstage%20Face%20%26%20Body%20Foundation" class="btn btn-cta" data-track="cta" data-product-id="147" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="42.0" data-rating="4.6" data-views="234000">
+    <a href="../products/clinique-moisture-surge-100h.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/clinique-moisture-surge-100h.webp" alt="Clinique Moisture Surge 100H" loading="lazy" width="400" height="400">
+            
+            <span class="card-badge">-10%</span>
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Clinique</span>
+        
+        <h3 class="card-title">
+            <a href="../products/clinique-moisture-surge-100h.html">Clinique Moisture Surge 100H</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(45000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$37.80</span>
+            <span class="price-original">$42.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">136 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">234000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Clinique%20Moisture%20Surge%20100H" class="btn btn-cta" data-track="cta" data-product-id="148" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="75.0" data-rating="4.5" data-views="178000">
+    <a href="../products/k18-leave-in-molecular-repair-mask.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/k18-leave-in-molecular-repair-mask.webp" alt="K18 Leave-In Molecular Repair Mask" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">K18</span>
+        
+        <h3 class="card-title">
+            <a href="../products/k18-leave-in-molecular-repair-mask.html">K18 Leave-In Molecular Repair Mask</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(34500)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">19</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$75.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">57 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">178000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=K18%20Leave-In%20Molecular%20Repair%20Mask" class="btn btn-cta" data-track="cta" data-product-id="149" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="182.0" data-rating="4.6" data-views="89000">
+    <a href="../products/skinceuticals-c-e-ferulic-serum.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/skinceuticals-c-e-ferulic-serum.webp" alt="Skinceuticals C E Ferulic Serum" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Skinceuticals</span>
+        
+        <h3 class="card-title">
+            <a href="../products/skinceuticals-c-e-ferulic-serum.html">Skinceuticals C E Ferulic Serum</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(15600)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">11</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$182.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">127 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">89000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Skinceuticals%20C%20E%20Ferulic%20Serum" class="btn btn-cta" data-track="cta" data-product-id="150" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="390.0" data-rating="4.5" data-views="45000">
+    <a href="../products/tom-ford-lost-cherry-eau-de-parfum.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/tom-ford-lost-cherry-eau-de-parfum.webp" alt="Tom Ford Lost Cherry Eau de Parfum" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Tom Ford</span>
+        
+        <h3 class="card-title">
+            <a href="../products/tom-ford-lost-cherry-eau-de-parfum.html">Tom Ford Lost Cherry Eau de Parfum</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(8900)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">3</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$390.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">236 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">45000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Tom%20Ford%20Lost%20Cherry%20Eau%20de%20Parfum" class="btn btn-cta" data-track="cta" data-product-id="151" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="280.0" data-rating="4.5" data-views="34000">
+    <a href="../products/augustinus-bader-the-cream.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/augustinus-bader-the-cream.webp" alt="Augustinus Bader The Cream" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Augustinus Bader</span>
+        
+        <h3 class="card-title">
+            <a href="../products/augustinus-bader-the-cream.html">Augustinus Bader The Cream</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.5 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(6700)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">19</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$280.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">218 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">34000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Augustinus%20Bader%20The%20Cream" class="btn btn-cta" data-track="cta" data-product-id="152" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="195.0" data-rating="4.6" data-views="56000">
+    <a href="../products/byredo-gypsy-water-eau-de-parfum.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/byredo-gypsy-water-eau-de-parfum.webp" alt="Byredo Gypsy Water Eau de Parfum" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Byredo</span>
+        
+        <h3 class="card-title">
+            <a href="../products/byredo-gypsy-water-eau-de-parfum.html">Byredo Gypsy Water Eau de Parfum</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.6 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(11200)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">5</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$195.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">209 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">56000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Byredo%20Gypsy%20Water%20Eau%20de%20Parfum" class="btn btn-cta" data-track="cta" data-product-id="153" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+            <article class="product-card grid-card" data-category="beauty" data-price="24.0" data-rating="4.7" data-views="456000">
+    <a href="../products/laneige-lip-sleeping-mask.html" class="card-image-link">
+        <div class="card-image-wrapper">
+            
+            <img src="../assets/images/products/laneige-lip-sleeping-mask.webp" alt="Laneige Lip Sleeping Mask" loading="lazy" width="400" height="400">
+            
+            <div class="card-quick-view">Quick View</div>
+        </div>
+    </a>
+    <div class="card-body">
+        
+        <span class="card-brand">Laneige</span>
+        
+        <h3 class="card-title">
+            <a href="../products/laneige-lip-sleeping-mask.html">Laneige Lip Sleeping Mask</a>
+        </h3>
+        <div class="card-rating">
+            <div class="stars" title="4.7 out of 5">
+                
+                
+                ★★★★★
+            </div>
+            <span class="review-count">(89000)</span>
+        </div>
+
+        <div class="card-viewers" data-min="2" data-max="25">
+            <span class="viewer-dot"></span>
+            <span class="viewer-count">9</span> viewing now
+        </div>
+
+        <div class="card-price">
+            
+            <span class="price-current">$24.00</span>
+            
+            <p class="card-price-disclaimer">Price on seller's site may differ</p>
+        </div>
+
+        
+        <div class="card-sold-badge">87 sold this week</div>
+        
+
+        <div class="card-popularity">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="card-view-count">456000</span> views
+        </div>
+
+        <a href="https://www.aliexpress.com/wholesale?SearchText=Laneige%20Lip%20Sleeping%20Mask" class="btn btn-cta" data-track="cta" data-product-id="154" target="_blank" rel="noopener noreferrer">
+            View Deal →
+        </a>
+    </div>
+</article>
+            
+        </div>
+
+        <!-- Pagination (B3 spec) -->
+        
+
+        <!-- Banner -->
+        
+    </div>
+</section>
+
+    </main>
+
+    <!-- Trust Badges -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    <div>
+                        <strong>Free Shipping</strong>
+                        <span>On orders over $50</span>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <div>
+                        <strong>Secure Payment</strong>
+                        <span>100% protected</span>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <div>
+                        <strong>24/7 Support</strong>
+                        <span>Dedicated assistance</span>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+                    <div>
+                        <strong>Best Prices</strong>
+                        <span>Guaranteed deals</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="../index.html" class="footer-logo">My Beauty products</a>
+                    <p class="footer-desc">Curated selection of the best beauty</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    
+                    <a href="../category/beauty.html">Beauty</a>
+                    
+                </div>
+                <div class="footer-col">
+                    <h4>Info</h4>
+                    <a href="../about.html">About Us</a>
+                    <a href="../terms.html">Terms of Service</a>
+                    <a href="../privacy.html">Privacy Policy</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Discover</h4>
+                    <a href="../index.html">Featured Products</a>
+                    
+                    <a href="../category/beauty.html">Best Beauty</a>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 My Beauty products. All rights reserved.</p>
+                <p class="disclaimer">Prices shown are approximate. Actual prices on the seller's website may differ. We earn affiliate commissions from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <p>We use cookies to improve your experience. By continuing, you agree to our <a href="../privacy.html">Privacy Policy</a>.</p>
+        <button onclick="acceptCookies()">Accept</button>
+    </div>
+
+    
+    <script src="../assets/main.js"></script>
+    
+</body>
+</html>
